@@ -16,9 +16,11 @@ import java.net.URLEncoder;
 
 /**
  * Created by Tim3L0rd on 12/29/2015.
+ * nothing changed
  */
 public class BackgroundTask extends AsyncTask<String,Void,String> {
     Context ctx;
+    int x;
 
     BackgroundTask(Context ctx){
         this.ctx = ctx;
